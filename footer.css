@@ -14,7 +14,7 @@ img {
   display: grid;
   gap: 50px;
   grid-template-columns: 1fr;
-  margin-top: 50px;
+  margin-top: 60px;
   margin-bottom: 50px;
 }
 
@@ -26,6 +26,7 @@ img {
 
 #contactMe {
   grid-row: 2;
+  text-align: center;
 }
 
 #instagram {
