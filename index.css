@@ -35,24 +35,6 @@ p {
   font-style: normal;
 }
 
-/* footer */
-
-#footer {
-  color: rgb(39, 39, 255);
-}
-
-#istagram {
-  color: rgb(39, 39, 255);
-  text-align: right;
-}
-
-#email {
-  color: rgb(39, 39, 255);
-  text-align: right;
-}
-
-/* ----- */
-
 .centerAlign {
   text-align: center;
 }

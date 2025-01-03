@@ -1,0 +1,33 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.blue {
+  color: rgb(39, 39, 255);
+}
+
+.footer {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#footerLine {
+  grid-column: 1 / span 2;
+  width: 95%;
+  justify-self: center;
+}
+
+#contactMe {
+  grid-column: 1 / span 2;
+}
