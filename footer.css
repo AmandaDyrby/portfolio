@@ -30,4 +30,31 @@ img {
 
 #contactMe {
   grid-column: 1 / span 2;
+  font-size: 7cqw;
+}
+
+#instagram,
+#email {
+  font-size: 5cqw;
+}
+
+#instaHandle,
+#emailHandle {
+  font-size: 3cqw;
+}
+
+@media (min-width: 600px) {
+  #contactMe {
+    font-size: 64px;
+  }
+
+  #instagram,
+  #email {
+    font-size: 32px;
+  }
+
+  #instaHandle,
+  #emailHandle {
+    font-size: 20px;
+  }
 }
