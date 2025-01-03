@@ -1,3 +1,68 @@
+/* RESET */
 * {
-  background-color: salmon;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+* {
+  background-color: rgb(25, 25, 25);
+}
+
+h1 {
+  color: rgb(239, 239, 239);
+  font-family: "Poppins", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+h2 {
+  color: rgb(239, 239, 239);
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+p {
+  color: rgb(239, 239, 239);
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#footer {
+  color: rgb(39, 39, 255);
+}
+
+#istagram {
+  color: rgb(39, 39, 255);
+  text-align: right;
+}
+
+#email {
+  color: rgb(39, 39, 255);
+  text-align: right;
+}
+
+.centerAlign {
+  text-align: center;
+}
+
+.rightAlign {
+  text-align: right;
+}
+
+.leftAlign {
+  text-align: left;
+}
+
+#nav-text {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
 }
