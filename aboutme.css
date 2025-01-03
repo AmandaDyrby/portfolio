@@ -10,45 +10,19 @@ img {
   display: block;
 }
 
-* {
-  background-color: rgb(25, 25, 25);
+#herotext {
+  font-size: 12cqw;
+  padding-top: 4%;
 }
 
-h1 {
-  color: rgb(239, 239, 239);
-  font-family: "Poppins", serif;
-  font-weight: 800;
-  font-style: normal;
-}
-
-h2 {
-  color: rgb(239, 239, 239);
-  font-family: "Poppins", serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
+#selfportrait,
+h1,
+h2,
 p {
-  color: rgb(239, 239, 239);
-  font-family: "Poppins", serif;
-  font-weight: 400;
-  font-style: normal;
+  padding: 0 5%;
 }
 
-.centerAlign {
-  text-align: center;
-}
-
-.rightAlign {
-  text-align: right;
-}
-
-.leftAlign {
-  text-align: left;
-}
-
-#nav-text {
-  font-family: "Poppins", serif;
-  font-weight: 300;
-  font-style: normal;
+.line {
+  width: 95%;
+  justify-self: center;
 }

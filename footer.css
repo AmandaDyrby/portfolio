@@ -10,51 +10,70 @@ img {
   display: block;
 }
 
-.blue {
-  color: rgb(39, 39, 255);
-}
-
 .footer {
   display: grid;
   gap: 50px;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
 #footerLine {
-  grid-column: 1 / span 2;
+  grid-row: 1;
   width: 95%;
   justify-self: center;
 }
 
 #contactMe {
-  grid-column: 1 / span 2;
-  font-size: 7cqw;
+  grid-row: 2;
 }
 
-#instagram,
+#instagram {
+  grid-row: 3;
+  text-align: center;
+}
+
+#instaHandle {
+  grid-row: 4;
+  text-align: center;
+}
+
 #email {
-  font-size: 5cqw;
+  grid-row: 5;
+  text-align: center;
 }
 
-#instaHandle,
 #emailHandle {
-  font-size: 3cqw;
+  grid-row: 6;
+  text-align: center;
 }
 
 @media (min-width: 600px) {
+  .footer {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  #footerLine {
+    grid-column: 1 / span 2;
+    width: 95%;
+    justify-self: center;
+  }
+
   #contactMe {
-    font-size: 64px;
+    grid-column: 1 / span 2;
   }
 
   #instagram,
-  #email {
-    font-size: 32px;
+  #instaHandle {
+    text-align: right;
   }
 
-  #instaHandle,
+  #email,
   #emailHandle {
-    font-size: 20px;
+    text-align: left;
   }
 }
