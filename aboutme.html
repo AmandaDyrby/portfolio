@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="aboutme.css" />
+    <link rel="stylesheet" href="nav.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,9 +16,15 @@
   <body>
     <header>
       <div class="nav">
-        <p id="nav-portfolio">PORTFOLIO</p>
-        <img id="nav-logo" src="logo/logo-blue.svg" alt="logo" />
-        <p id="nav-aboutme">ABOUT ME</p>
+        <a class="nav-text" id="navPortfolio" href="portfolio.html"
+          >PORTFOLIO</a
+        >
+
+        <a id="navLogo" href="index.html"
+          ><img src="logo/logo-blue.svg" alt="logo"
+        /></a>
+
+        <a class="nav-text" id="navAboutMe" href="aboutme.html">ABOUT ME</a>
       </div>
     </header>
     <main>
@@ -29,7 +36,7 @@
         Here you can find my skills in software and coding languages. <br />
         <br />Feel free to reach out to me!
       </p>
-      <!-- line -->
+      <img src="img/line.svg" alt="line" />
 
       <h1>Software and Coding</h1>
       <!-- software svg -->
@@ -41,7 +48,7 @@
       <p>Java</p>
       <p>SQL</p>
 
-      <!-- line -->
+      <img src="img/line.svg" alt="line" />
 
       <h1>Education</h1>
       <h2>2024-2026</h2>
@@ -53,7 +60,7 @@
       </p>
     </main>
     <footer id="footer">
-      <!-- line -->
+      <img src="img/line.svg" alt="line" />
       <h1 class="centerAlign">Contact Me</h1>
       <div id="instagram">
         <h2>INSTAGRAM</h2>

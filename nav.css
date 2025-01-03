@@ -1,0 +1,55 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* nav */
+
+.nav-text {
+  color: rgb(239, 239, 239);
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(239, 239, 239);
+}
+
+.nav {
+  display: grid;
+  column-gap: 25px;
+  grid-template-columns: 1fr 50px 1fr;
+  margin-top: 10px;
+}
+
+#navPortfolio {
+  grid-column: 1;
+  text-align: right;
+  align-content: center;
+}
+
+#navLogo {
+  grid-column: 2;
+}
+
+#navLogo img {
+  width: 50px;
+  height: 50px;
+}
+
+#navAboutMe {
+  grid-column: 3;
+  text-align: left;
+  align-content: center;
+}
+
+/* ----- */

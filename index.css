@@ -35,6 +35,8 @@ p {
   font-style: normal;
 }
 
+/* footer */
+
 #footer {
   color: rgb(39, 39, 255);
 }
@@ -49,6 +51,8 @@ p {
   text-align: right;
 }
 
+/* ----- */
+
 .centerAlign {
   text-align: center;
 }
@@ -59,10 +63,4 @@ p {
 
 .leftAlign {
   text-align: left;
-}
-
-#nav-text {
-  font-family: "Poppins", serif;
-  font-weight: 300;
-  font-style: normal;
 }
