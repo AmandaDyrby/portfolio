@@ -9,3 +9,27 @@ img {
   height: auto;
   display: block;
 }
+
+#heroIllustration {
+  padding: 5%;
+}
+
+#intro {
+  padding: 10%;
+}
+
+.ctax2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  /* row-gap: 25%; */
+}
+
+.cta img {
+  margin: 0 auto;
+  width: 220px;
+}
+
+#indexcta1,
+#indexcta2 {
+  padding-bottom: 5%;
+}
