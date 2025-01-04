@@ -12,13 +12,17 @@ img {
 
 #herotext {
   font-size: 12cqw;
-  padding-top: 4%;
+  padding: 3% 5% 0% 5%;
 }
 
 #selfportrait,
 .h3 {
   padding: 0 5%;
   padding-top: 5%;
+}
+
+#bio {
+  padding: 10% 5% 10% 5%;
 }
 
 #softwareAndCoding {
@@ -35,37 +39,60 @@ img {
   padding: 0% 5%;
 }
 
-.h3 {
-  width: 300px;
-  justify-self: center;
+#education,
+#year,
+#touchYear,
+#aboutKEA {
+  text-align: center;
+}
+
+#education {
+  padding: 10% 0% 5% 0%;
 }
 
 #touchYear {
-  padding-top: 0%;
+  padding: 0% 5% 5% 5%;
+}
+
+#aboutKEA {
+  padding: 0% 5%;
 }
 
 @media (max-width: 599px) {
+  #softwareAndCoding {
+    padding: 10% 0% 5% 0%;
+  }
+  .h3 {
+    width: 300px;
+    justify-self: center;
+  }
+
   .softwareRow1 {
     margin-top: 10%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    max-width: 95%;
   }
 
   .softwareRow2 {
     margin-bottom: 10%;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    max-width: 95%;
   }
 
   .languagesRow1 {
     margin-top: 10%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    max-width: 95%;
   }
 
   .languagesRow2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    max-width: 95%;
+    margin-bottom: 10%;
   }
 
   .codingLanguages {
@@ -97,6 +124,7 @@ img {
   }
 
   #bio {
+    padding: 0% 5%;
     grid-column: 2;
     grid-row: 2;
     font-size: 1.65cqw;
@@ -179,11 +207,15 @@ img {
   #touchYear,
   #year {
     font-size: 2.2cqw;
+    text-align: left;
+    padding: 0%;
   }
 
   #aboutKEA {
     grid-column: 2;
     grid-row: 2 / span 2;
     font-size: 1.65cqw;
+    text-align: left;
+    padding: 0%;
   }
 }
