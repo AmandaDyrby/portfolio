@@ -21,7 +21,7 @@ img {
 .ctax2 {
   display: grid;
   grid-template-columns: 1fr;
-  /* row-gap: 25%; */
+  padding-top: 5%;
 }
 
 .cta img {
@@ -50,6 +50,7 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 5%;
+    padding-top: 0%;
   }
 
   #indexcta1 {
