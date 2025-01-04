@@ -18,11 +18,174 @@ img {
 #selfportrait,
 h1,
 h2,
+.h3,
 p {
   padding: 0 5%;
+  padding-top: 5%;
+}
+
+#softwareAndCoding {
+  text-align: center;
+}
+
+.softwareRow1 img,
+.softwareRow2 img {
+  width: 40px;
+  justify-self: center;
 }
 
 .line {
-  width: 95%;
+  padding: 15% 5%;
+  padding-bottom: 10%;
+}
+
+.h3 {
+  width: 300px;
   justify-self: center;
+}
+
+#touchYear {
+  padding-top: 0%;
+}
+
+@media (max-width: 599px) {
+  .softwareRow1 {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .softwareRow2 {
+    margin-bottom: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .languagesRow1 {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .languagesRow2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .codingLanguages {
+    justify-self: center;
+  }
+}
+
+@media (min-width: 600px) {
+  .grid-1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    justify-self: center;
+    margin-top: 2%;
+  }
+
+  #selfportrait {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+  }
+
+  #herotext {
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 4cqw;
+  }
+
+  #bio {
+    grid-column: 2;
+    grid-row: 2;
+    font-size: 1.65cqw;
+  }
+
+  .grid-1_1_1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 12% 1fr 1fr;
+    max-width: 1200px;
+    justify-self: center;
+    row-gap: 5%;
+  }
+
+  #softwareAndCoding {
+    grid-column: 1 / span 5;
+    justify-self: center;
+    text-align: center;
+    font-size: 5cqw;
+  }
+
+  #softwareH3 {
+    grid-column: 1;
+    grid-row: 2;
+    justify-self: start;
+  }
+
+  #codingH3 {
+    grid-column: 4;
+    grid-row: 2;
+    justify-self: start;
+  }
+
+  .softwareRow1,
+  .softwareRow2,
+  .languagesRow1,
+  .languagesRow2 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .softwareRow1 {
+    grid-column: 1;
+    justify-content: space-around;
+  }
+
+  .softwareRow2,
+  .languagesRow1,
+  .languagesRow2 {
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .codingLanguages {
+    padding: 0px;
+  }
+
+  .languagesRow1 {
+    grid-column: 4;
+  }
+
+  .h3 {
+    padding-top: 30%;
+    padding-bottom: 10%;
+  }
+
+  #education {
+    grid-column: 1 / span 2;
+    text-align: center;
+    padding-bottom: 7%;
+    font-size: 5cqw;
+  }
+
+  #touchYear {
+    grid-column: 1;
+  }
+
+  #touchYear,
+  #year {
+    font-size: 2.2cqw;
+  }
+
+  #aboutKEA {
+    grid-column: 2;
+    grid-row: 2 / span 2;
+    font-size: 1.65cqw;
+  }
+
+  #footerLine {
+    padding-top: 10%;
+  }
 }

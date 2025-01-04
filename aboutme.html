@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="aboutme.css" />
     <link rel="stylesheet" href="master.css" />
     <link rel="stylesheet" href="nav.css" />
     <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="aboutme.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -30,51 +30,65 @@
         <a class="nav-text" id="navAboutMe" href="aboutme.html">ABOUT ME</a>
       </div>
     </header>
-    <main class="grid_1">
-      <h1 id="herotext">HI THERE! I'M AMANDA DYRBY ANDERSEN</h1>
-      <img
-        id="selfportrait"
-        src="img/blueSelfPortrait.webp"
-        alt="selfportrait"
-      />
-      <p>
-        I'm a multimedia design student based in Denmark and an aspiring
-        <b>UI/UX designer and front-end developer.</b> <br />
-        Here you can find my skills in software and coding languages. <br />
-        <br />Feel free to reach out to me!
-      </p>
-      <img class="line" src="img/line.svg" alt="line" />
-
-      <h1>Software and Coding</h1>
-      <img src="img/software.svg" alt="software" />
-
-      <div class="softwareRow1">
-        <img src="img/figmaLogo.svg" alt="Figma" />
-        <img src="img/PsLogo.svg" alt="Adobe Photoshop" />
-        <img src="img/AiLogo.svg" alt="Adobe Illustrator" />
+    <main>
+      <div class="grid-1_1">
+        <h1 id="herotext">HI THERE! I'M AMANDA DYRBY ANDERSEN</h1>
+        <img
+          id="selfportrait"
+          src="img/blueSelfPortrait.webp"
+          alt="self portrait"
+        />
+        <p id="bio">
+          I'm a multimedia design student based in Denmark and an aspiring
+          <b>UI/UX designer and front-end developer.</b> <br />
+          Here you can find my skills in software and coding languages. <br />
+          <br />Feel free to reach out to me!
+        </p>
       </div>
-      <div class="softwareRow2">
-        <img src="img/PrLogo.svg" alt="Adobe Premiere" />
-        <img src="img/AuLogo.svg" alt="Adobe Audition" />
-      </div>
-
-      <img src="img/coding.svg" alt="coding" />
-      <p>HTML</p>
-      <p>CSS</p>
-      <p>JavaScript</p>
-      <p>Java</p>
-      <p>SQL</p>
 
       <img class="line" src="img/line.svg" alt="line" />
 
-      <h1>Education</h1>
-      <h2 class="blue">2024-2026</h2>
-      <h2>KEA - Copenhagen School of Design and Business</h2>
-      <p>
-        Finishing up 1st semester... Lorem ipsum dolor sit amet, consectetur
-        adipiscing elit. Quisque felis massa, iaculis eget laoreet vitae,
-        volutpat nec mauris. Nam euismod interdum volutpat.
-      </p>
+      <div class="grid-1_1_1_1">
+        <h1 id="softwareAndCoding">Software and Coding</h1>
+        <img id="softwareH3" class="h3" src="img/software.svg" alt="software" />
+
+        <div class="softwareRow1">
+          <img id="figmaLogo" src="img/figmaLogo.svg" alt="Figma" />
+          <img id="photoshopLogo" src="img/PsLogo.svg" alt="Adobe Photoshop" />
+          <img
+            id="illustratorLogo"
+            src="img/AiLogo.svg"
+            alt="Adobe Illustrator"
+          />
+        </div>
+        <div class="softwareRow2">
+          <img id="premiereLogo" src="img/PrLogo.svg" alt="Adobe Premiere" />
+          <img id="auditionLogo" src="img/AuLogo.svg" alt="Adobe Audition" />
+        </div>
+
+        <img id="codingH3" class="h3" src="img/coding.svg" alt="coding" />
+        <div class="languagesRow1">
+          <p class="codingLanguages">HTML</p>
+          <p class="codingLanguages">CSS</p>
+          <p class="codingLanguages">JavaScript</p>
+        </div>
+        <div class="languagesRow2">
+          <p class="codingLanguages">Java</p>
+          <p class="codingLanguages">SQL</p>
+        </div>
+      </div>
+      <img class="line" src="img/line.svg" alt="line" />
+
+      <div class="grid-1_1">
+        <h1 id="education">Education</h1>
+        <h2 id="year" class="blue">2024-2026</h2>
+        <h2 id="touchYear">KEA - Copenhagen School of Design and Business</h2>
+        <p id="aboutKEA">
+          Finishing up 1st semester... Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Quisque felis massa, iaculis eget laoreet vitae,
+          volutpat nec mauris. Nam euismod interdum volutpat.
+        </p>
+      </div>
     </main>
     <footer class="footer">
       <img id="footerLine" src="img/line.svg" alt="line" />
