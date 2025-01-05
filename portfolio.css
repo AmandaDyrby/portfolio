@@ -9,3 +9,16 @@ img {
   height: auto;
   display: block;
 }
+
+.toX img {
+  width: 200px;
+}
+
+img {
+  justify-self: center;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 5%;
+}

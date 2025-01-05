@@ -42,7 +42,9 @@ img {
 #education,
 #year,
 #touchYear,
-#aboutKEA {
+#aboutKEA,
+#h2Software,
+#h2Coding {
   text-align: center;
 }
 
@@ -58,7 +60,7 @@ img {
   padding: 0% 5%;
 }
 
-@media (max-width: 599px) {
+@media (max-width: 799px) {
   #softwareAndCoding {
     padding: 10% 0% 5% 0%;
   }
@@ -100,43 +102,14 @@ img {
   }
 }
 
-@media (min-width: 600px) {
-  .grid-1_1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 4%;
-    max-width: 1200px;
-    justify-self: center;
-    margin-top: 2%;
-    margin-bottom: 6%;
-  }
-
-  #selfportrait {
-    grid-column: 1;
-    grid-row: 1 / span 2;
-  }
-
-  #herotext {
-    grid-column: 2;
-    grid-row: 1;
-    font-size: 4cqw;
-    padding-bottom: 5%;
-  }
-
-  #bio {
-    padding: 0% 5%;
-    grid-column: 2;
-    grid-row: 2;
-    font-size: 1.65cqw;
-  }
-
+@media (min-width: 800px) {
   .grid-1_1_1_1 {
     display: grid;
-    grid-template-columns: 1fr 1fr 12% 1fr 1fr;
+    grid-template-columns: 3fr 2fr 12% 3fr 2fr;
     max-width: 1200px;
     justify-self: center;
     row-gap: 4%;
-    margin-bottom: 8%;
+    margin: 0 5% 8% 5%;
   }
 
   #softwareAndCoding {
@@ -147,7 +120,7 @@ img {
     padding-top: 6%;
   }
 
-  #softwareH3 {
+  /* #softwareH3 {
     grid-column: 1;
     grid-row: 2;
     justify-self: start;
@@ -157,7 +130,7 @@ img {
     grid-column: 4;
     grid-row: 2;
     justify-self: start;
-  }
+  } */
 
   .softwareRow1,
   .softwareRow2,
@@ -180,7 +153,7 @@ img {
   }
 
   .codingLanguages {
-    padding: 0px;
+    padding: 0 5cqw 0 0;
   }
 
   .languagesRow1 {
@@ -191,6 +164,55 @@ img {
     padding-top: 15%;
     padding-bottom: 7%;
   }
+
+  #h2Software {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+  }
+
+  #h2Coding {
+    grid-column: 4 / span 2;
+    grid-row: 2;
+  }
+
+  #h2Software,
+  #h2Coding {
+    text-align: left;
+    padding-top: 5%;
+    align-self: center;
+  }
+}
+
+@media (min-width: 600px) {
+  .grid-1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4%;
+    max-width: 1200px;
+    justify-self: center;
+    margin: 2% 5% 6% 5%;
+  }
+
+  #selfportrait {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+  }
+
+  #herotext {
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 4cqw;
+    padding-bottom: 5%;
+  }
+
+  #bio {
+    padding: 0% 5%;
+    grid-column: 2;
+    grid-row: 2;
+    font-size: 1.65cqw;
+  }
+
+  /* .softwareLogo */
 
   #education {
     grid-column: 1 / span 2;

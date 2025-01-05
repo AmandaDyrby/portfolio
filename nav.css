@@ -28,7 +28,7 @@ a {
   display: grid;
   column-gap: 25px;
   grid-template-columns: 1fr 50px 1fr;
-  margin-top: 10px;
+  padding-top: 10px;
 }
 
 #navPortfolio {
@@ -51,3 +51,8 @@ a {
   text-align: left;
   align-content: center;
 }
+
+/* #navLine {
+  width: 350px;
+  justify-self: center;
+  grid-column: 1 / span 3;
