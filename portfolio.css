@@ -11,14 +11,34 @@ img {
 }
 
 .toX img {
-  width: 200px;
+  width: 250px;
+  justify-self: center;
+  padding: 5%;
 }
 
-img {
+.portfolioIMG {
   justify-self: center;
+  padding: 5%;
 }
 
 h1 {
   text-align: center;
-  padding-top: 5%;
+  padding: 5% 5% 0 5%;
+}
+
+p {
+  padding: 5%;
+}
+
+.line {
+  padding: 10% 5% 7% 5%;
+}
+
+/* reset footer */
+
+#footerLine,
+#contactMe,
+.instagram,
+.email {
+  padding: 0%;
 }
